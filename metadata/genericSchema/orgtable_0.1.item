@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_pjo-cr3WEe6bp_ZhkdpOuw" comment="connectionComment" label="connectionLabel" dataPackage="_pjo-c73WEe6bp_ZhkdpOuw" mappingTypeUsed="true" mappingTypeId="mysql_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_pjo-c73WEe6bp_ZhkdpOuw" dataManager="_pjo-cr3WEe6bp_ZhkdpOuw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pjo-dL3WEe6bp_ZhkdpOuw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-db3WEe6bp_ZhkdpOuw" name="EMPLOYEE_ID" id="3676" label="EMPLOYEE_ID" length="64" sourceType="DOUBLE" talendType="id_Double">
+        <initialValue xmi:id="_pjo-dr3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-d73WEe6bp_ZhkdpOuw" name="COUNTRY" id="3677" label="COUNTRY" length="2" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_pjo-eL3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-eb3WEe6bp_ZhkdpOuw" name="COMPANY" id="3680" label="COMPANY" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_pjo-er3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-e73WEe6bp_ZhkdpOuw" name="DEPARTMENT" id="3681" label="DEPARTMENT" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_pjo-fL3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-fb3WEe6bp_ZhkdpOuw" name="SECTION" id="3682" label="SECTION" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_pjo-fr3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-f73WEe6bp_ZhkdpOuw" name="Org_Group" id="3683" label="Org_Group" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_pjo-gL3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-gb3WEe6bp_ZhkdpOuw" name="Job_Title" id="3684" label="Job_Title" length="25" sourceType="VARCHAR" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_pjo-gr3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-g73WEe6bp_ZhkdpOuw" name="Gender" id="3685" label="Gender" length="1" sourceType="CHAR" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_pjo-hL3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-hb3WEe6bp_ZhkdpOuw" name="Salary" id="3686" label="Salary" length="13" sourceType="DECIMAL" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_pjo-hr3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-h73WEe6bp_ZhkdpOuw" name="Emp_Hire_Date" id="3690" label="Emp_Hire_Date" length="7" sourceType="DATE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_pjo-iL3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-ib3WEe6bp_ZhkdpOuw" name="Emp_Term_Date" id="3691" label="Emp_Term_Date" length="7" sourceType="DATE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_pjo-ir3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-i73WEe6bp_ZhkdpOuw" name="Employee_Name" id="3692" label="Employee_Name" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_pjo-jL3WEe6bp_ZhkdpOuw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pjo-jb3WEe6bp_ZhkdpOuw" name="Birth_Date" id="6927" label="Birth_Date" length="8" sourceType="DATE" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_pjo-jr3WEe6bp_ZhkdpOuw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
